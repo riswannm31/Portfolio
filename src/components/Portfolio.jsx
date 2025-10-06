@@ -1,5 +1,12 @@
 import { useState } from 'react'
 import './Portfolio.css'
+import Login from '../images/LOGIN.png'
+import HomePage from '../images/HOME PAGE.png'
+import Artist from '../images/ARTIST.png'
+import Exploree from '../images/EXPLORE.png'
+import Lyrics from '../images/LYRICS PAGE.png'
+import Discover from '../images/MacBook Pro 16_ - 8.jpg'
+import Signup from '../images/SIGNUP.png'
 
 function Portfolio() {
   const [filter, setFilter] = useState('all')
@@ -10,7 +17,7 @@ function Portfolio() {
       title: 'Music Zone Login',
       category: 'ui-design',
       description: 'Modern login interface for music streaming application',
-      image: 'https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: Login,
       tags: ['Figma', 'UI Design']
     },
     {
@@ -18,7 +25,7 @@ function Portfolio() {
       title: 'Music Zone Home',
       category: 'ui-design',
       description: 'Engaging home page design with personalized recommendations',
-      image: 'https://images.pexels.com/photos/7319297/pexels-photo-7319297.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: HomePage,
       tags: ['Figma', 'UI Design']
     },
     {
@@ -26,7 +33,7 @@ function Portfolio() {
       title: 'Artist Selection',
       category: 'ui-design',
       description: 'Interactive artist selection interface with visual appeal',
-      image: 'https://images.pexels.com/photos/7319301/pexels-photo-7319301.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: Artist,
       tags: ['Figma', 'UI Design']
     },
     {
@@ -34,7 +41,7 @@ function Portfolio() {
       title: 'Explore Page',
       category: 'ui-design',
       description: 'Content discovery interface with intuitive navigation',
-      image: 'https://images.pexels.com/photos/744318/pexels-photo-744318.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: Exploree,
       tags: ['Figma', 'UI Design']
     },
     {
@@ -42,7 +49,23 @@ function Portfolio() {
       title: 'Lyrics Display',
       category: 'ui-design',
       description: 'Clean and readable lyrics interface with playback controls',
-      image: 'https://images.pexels.com/photos/6899456/pexels-photo-6899456.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: Lyrics,
+      tags: ['Figma', 'UI Design']
+    },
+    {
+      id: 6,
+      title: 'Website Discover',
+      category: 'ui-design',
+      description: 'Discover page of Website',
+      image: Discover,
+      tags: ['Figma', 'UI Design']
+    },
+    {
+      id: 7,
+      title: 'Signup Page',
+      category: 'ui-design',
+      description: 'Signup page ',
+      image: Signup,
       tags: ['Figma', 'UI Design']
     }
   ]
